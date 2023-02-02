@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*320px*/
+header {
+  background-image: linear-gradient(#4d5155, rgb(44, 43, 43));
+  display: flex;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+nav .contenedorHeader {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3px;
+  width: 100%;
+}
+nav .contenedorHeader .logoHeader {
+  width: 20%;
+}
+nav ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+}
+nav ul a {
+  display: flex;
+  text-decoration: none;
+  color: white;
+  padding: 8px;
+  margin-bottom: 2px;
+  font-family: "Rubik Gemstones", cursive;
+  font-size: medium;
+}
+nav ul a:hover {
+  transform: scale(90%);
+}
+
+/*Navbar Bootstrap*/
+.navbar {
+  font-family: "Rubik Gemstones", cursive;
+  font-size: medium;
+}
+.navbar #div_nav_responsive {
+  display: flex;
+  justify-content: center;
+}
+.navbar #div_nav_responsive li a .iconIns {
+  color: blueviolet;
+}
+.navbar #div_nav_responsive li a .iconFbk {
+  color: blue;
+}
+.navbar #div_nav_responsive li a .iconWsp {
+  color: green;
+}
+.navbar #div_nav_responsive li a:hover {
+  transform: scale(90%);
+}
+
+.footerCenter {
+  background-image: linear-gradient(grey, black);
+  border-radius: 15px;
+  text-align: center;
+}
+.footerCenter .redesSociales a i {
+  margin: 3px;
+  font-size: 40px;
+}
+.footerCenter .redesSociales a .iconWsp {
+  color: green;
+}
+.footerCenter .redesSociales a .iconFbk {
+  color: blue;
+}
+.footerCenter .redesSociales a .iconIns {
+  color: blueviolet;
+}
+.footerCenter .redesSociales a .iconIbx {
+  color: rgb(168, 158, 20);
+}
+.footerCenter p {
+  padding-top: 15px;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}/*# sourceMappingURL=main.css.map */

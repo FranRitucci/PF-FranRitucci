@@ -1,16 +1,67 @@
+/*RESET CSS*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/*320px*/
+/*320PX*/
+/*BACKGROUND BODYs-FORMs*/
+.back_ground1 {
+  background-image: url(../assets/img/BgIndex.jpg);
+  background-size: cover;
+}
+
+.back_ground3 {
+  background-image: url(../assets/img/BgNos&Galra.jpg);
+  background-size: cover;
+}
+
+.back_ground4 {
+  background-image: url(../assets/img/BgStre&Cntns.jpg);
+  background-size: cover;
+}
+
+.back_ground_form {
+  background-image: url(../assets/img/BgForm.png);
+  background-size: cover;
+}
+
+/*HEADER-FOOTER*/
 header {
   background-image: linear-gradient(#4d5155, rgb(44, 43, 43));
   display: flex;
   width: 100%;
 }
 
+.footerCenter {
+  background-image: linear-gradient(grey, black);
+  border-radius: 15px;
+  text-align: center;
+}
+.footerCenter .redesSociales a i {
+  margin: 3px;
+  font-size: 40px;
+}
+.footerCenter .redesSociales a .iconWsp {
+  color: green;
+}
+.footerCenter .redesSociales a .iconFbk {
+  color: blue;
+}
+.footerCenter .redesSociales a .iconIns {
+  color: blueviolet;
+}
+.footerCenter .redesSociales a .iconIbx {
+  color: rgb(168, 158, 20);
+}
+.footerCenter p {
+  padding-top: 15px;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+/*NAVBAR*/
 nav {
   display: flex;
   flex-direction: column;
@@ -67,29 +118,173 @@ nav ul a:hover {
   transform: scale(90%);
 }
 
-.footerCenter {
-  background-image: linear-gradient(grey, black);
-  border-radius: 15px;
+/*CAROUSEL*/
+/*Carousel Bootstrap*/
+#carouselExampleDark {
+  margin-bottom: 15px;
+}
+
+/*H1-H2*/
+.contenedorH1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.contenedorH1 h1 {
+  background-color: rgba(128, 128, 128, 0.842);
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: large;
+}
+
+.h2General {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  border-radius: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+.padreH2 {
+  display: flex;
+  justify-content: center;
+}
+.padreH2 .h2Stock {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  border: outset;
+  width: 70%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  background-color: rgba(0, 255, 255, 0.315);
+}
+
+/*CONTENIDOS ESTETICOS*/
+.divisionEstetica {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+.divisionEstetica .lineEstetica {
+  border: solid black 2px;
+  width: 30%;
+}
+
+/*CONTENIDOS DE LAS PAGINAS*/
+.galeriaInicio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.galeriaInicio img {
+  width: 95%;
+  border: solid 2px black;
+  margin: 5px;
+  opacity: 0.3;
+}
+.galeriaInicio img:hover {
+  opacity: 1;
+}
+
+.parrafoFont {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
   text-align: center;
 }
-.footerCenter .redesSociales a i {
-  margin: 3px;
-  font-size: 40px;
-}
-.footerCenter .redesSociales a .iconWsp {
-  color: green;
-}
-.footerCenter .redesSociales a .iconFbk {
-  color: blue;
-}
-.footerCenter .redesSociales a .iconIns {
-  color: blueviolet;
-}
-.footerCenter .redesSociales a .iconIbx {
-  color: rgb(168, 158, 20);
-}
-.footerCenter p {
-  padding-top: 15px;
+.parrafoFont .parrafoTitle {
   font-family: "Roboto", sans-serif;
-  color: white;
+  font-weight: 600;
+}
+
+.galeriaGaleria {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5px;
+}
+.galeriaGaleria img {
+  border: solid 2px black;
+  margin: 5px;
+  width: 95%;
+}
+
+.webStore {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.webStore .webStoreDiv {
+  display: flex;
+  width: 95%;
+  text-align: center;
+  align-items: center;
+  border: inset;
+  background-color: rgba(0, 255, 255, 0.315);
+  justify-content: space-around;
+  margin-top: 10px;
+}
+.webStore .webStoreDiv:hover {
+  background-color: rgba(0, 255, 255, 0.514);
+}
+.webStore .webStoreDiv img {
+  width: 30%;
+  border: solid 2px black;
+  margin: 5px;
+}
+.webStore .webStoreDiv .font_WS {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  width: 55%;
+}
+.webStore .webStoreDiv .btn_WS {
+  border: inset;
+  background-color: rgba(0, 255, 255, 0.315);
+}
+.webStore .webStoreDiv .btn_WS:hover {
+  background-color: rgba(0, 255, 255, 0.699);
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  margin-bottom: 4px;
+}
+form fieldset {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 95%;
+}
+form fieldset .borderOut2 {
+  border: outset;
+  background-color: rgba(0, 255, 255, 0.568);
+}
+form fieldset .marginLabel {
+  margin: 40px;
+}
+form fieldset .marginLabel .borderOut1 {
+  border: outset;
+}
+form fieldset .marginLabel .borderOut1:hover {
+  background-color: rgba(0, 255, 255, 0.61);
+}
+form fieldset .marginLabel .borderOut2 {
+  border: outset;
+  background-color: rgba(0, 255, 255, 0.568);
+}
+form fieldset .border_input {
+  border: outset;
+  background-color: rgba(0, 255, 255, 0.336);
+}
+form fieldset .border_input:hover {
+  background-color: rgba(0, 255, 255, 0.61);
 }/*# sourceMappingURL=main.css.map */

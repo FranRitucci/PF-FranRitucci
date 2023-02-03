@@ -1,121 +1,25 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+/*RESET CSS*/
+@import "../scss/normalize/reset";
 
-/*320px*/
+/*320PX*/
 
-header {
-    background-image: linear-gradient(#4d5155, rgb(44, 43, 43));
-    display: flex;
-    width: 100%;
-}
+/*BACKGROUND BODYs-FORMs*/
+@import "../scss/backgrounds/background";
 
-nav {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
+/*HEADER-FOOTER*/
+@import "../scss/base/general-content";
 
-    .contenedorHeader {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 3px;
-        width: 100%;
+/*NAVBAR*/
+@import "../scss/components/navbar";
 
-        .logoHeader {
-            width: 20%;
-        }
-    }
+/*CAROUSEL*/
+@import "../scss/components/carousel";
 
-    ul {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        list-style-type: none;
+/*H1-H2*/
+@import "../scss/base/titles";
 
-        a {
-            display: flex;
-            text-decoration: none;
-            color: white;
-            padding: 8px;
-            margin-bottom: 2px;
-            font-family: 'Rubik Gemstones', cursive;
-            font-size: medium;
+/*CONTENIDOS ESTETICOS*/
+@import "../scss/base/aesthetic-content";
 
-            &:hover {
-                transform: scale(90%);
-            }
-        }
-    }
-}
-
-/*Navbar Bootstrap*/
-
-.navbar {
-    font-family: 'Rubik Gemstones', cursive;
-    font-size: medium;
-
-    #div_nav_responsive {
-        display: flex;
-        justify-content: center;
-
-        li {
-            a {
-                .iconIns {
-                    color: blueviolet;
-                }
-
-                .iconFbk {
-                    color: blue;
-                }
-
-                .iconWsp {
-                    color: green;
-                }
-
-                &:hover {
-                    transform: scale(90%);
-                }
-            }
-        }
-    }
-}
-
-.footerCenter {
-    background-image: linear-gradient(grey, black);
-    border-radius: 15px;
-    text-align: center;
-
-    .redesSociales {
-        a {
-            i {
-                margin: 3px;
-                font-size: 40px;
-            }
-
-            .iconWsp {
-                color: green;
-            }
-
-            .iconFbk {
-                color: blue;
-            }
-
-            .iconIns {
-                color: blueviolet;
-            }
-
-            .iconIbx {
-                color: rgb(168, 158, 20);
-            }
-        }
-    }
-
-    p {
-        padding-top: 15px;
-        font-family: 'Roboto', sans-serif;
-        color: white;
-    }
-}
+/*CONTENIDOS DE LAS PAGINAS*/
+@import "../scss/base/pages-content";

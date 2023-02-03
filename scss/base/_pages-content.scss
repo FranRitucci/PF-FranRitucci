@@ -1,0 +1,128 @@
+.galeriaInicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+        width: 95%;
+        border: solid 2px black;
+        margin: 5px;
+        opacity: 0.3;
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+}
+
+.parrafoFont {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    text-align: center;
+
+    .parrafoTitle{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+    }
+}
+
+.galeriaGaleria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5px;
+
+    img{
+        border: solid 2px black;
+        margin: 5px;
+        width: 95%;
+    }
+}
+
+.webStore {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5px;
+
+    .webStoreDiv {
+        display: flex;
+        width: 95%;
+        text-align: center;
+        align-items: center;
+        border: inset;
+        background-color: rgba(0, 255, 255, 0.315);
+        justify-content: space-around;
+        margin-top: 10px;
+
+        &:hover {
+            background-color: rgba(0, 255, 255, 0.514);
+        }
+
+        img {
+            width: 30%;
+            border: solid 2px black;
+            margin: 5px;
+        }
+
+        .font_WS {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 100;
+            width: 55%;
+        }
+
+        .btn_WS {
+            border: inset;
+            background-color: rgba(0, 255, 255, 0.315);
+        
+            &:hover {
+                background-color: rgba(0, 255, 255, 0.699);
+            }
+        }
+    }
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 4px;
+
+    fieldset {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 95%;
+
+        .borderOut2 {
+            border: outset;
+            background-color: rgba(0, 255, 255, 0.568);
+        }
+
+        .marginLabel {
+            margin: 40px;
+
+            .borderOut1 {
+                border: outset;
+
+                &:hover {
+                    background-color: rgba(0, 255, 255, 0.61);
+                }
+            }
+
+            .borderOut2 {
+                border: outset;
+                background-color: rgba(0, 255, 255, 0.568);
+            }
+        }
+
+        .border_input {
+            border: outset;
+            background-color: rgba(0, 255, 255, 0.336);
+
+            &:hover {
+                background-color: rgba(0, 255, 255, 0.61);
+            }
+        }
+    }
+}

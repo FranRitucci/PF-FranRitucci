@@ -1,0 +1,42 @@
+header {
+    background-image: linear-gradient(#4d5155, rgb(44, 43, 43));
+    display: flex;
+    width: 100%;
+}
+
+.footerCenter {
+    background-image: linear-gradient(grey, black);
+    border-radius: 15px;
+    text-align: center;
+
+    .redesSociales {
+        a {
+            i {
+                margin: 3px;
+                font-size: 40px;
+            }
+
+            .iconWsp {
+                color: green;
+            }
+
+            .iconFbk {
+                color: blue;
+            }
+
+            .iconIns {
+                color: blueviolet;
+            }
+
+            .iconIbx {
+                color: rgb(168, 158, 20);
+            }
+        }
+    }
+
+    p {
+        padding-top: 15px;
+        font-family: 'Roboto', sans-serif;
+        color: white;
+    }
+}

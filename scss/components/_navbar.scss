@@ -1,0 +1,69 @@
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+    .contenedorHeader {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 3px;
+        width: 100%;
+
+        .logoHeader {
+            width: 20%;
+        }
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        list-style-type: none;
+
+        a {
+            display: flex;
+            text-decoration: none;
+            color: white;
+            padding: 8px;
+            margin-bottom: 2px;
+            font-family: 'Rubik Gemstones', cursive;
+            font-size: medium;
+
+            &:hover {
+                transform: scale(90%);
+            }
+        }
+    }
+}
+
+/*Navbar Bootstrap*/
+.navbar {
+    font-family: 'Rubik Gemstones', cursive;
+    font-size: medium;
+
+    #div_nav_responsive {
+        display: flex;
+        justify-content: center;
+
+        li {
+            a {
+                .iconIns {
+                    color: blueviolet;
+                }
+
+                .iconFbk {
+                    color: blue;
+                }
+
+                .iconWsp {
+                    color: green;
+                }
+
+                &:hover {
+                    transform: scale(90%);
+                }
+            }
+        }
+    }
+}

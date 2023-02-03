@@ -1,243 +1,3 @@
-/*MAIN*/
-
-form {
-    display: flex;
-    justify-content: center;
-    margin-top: 5px;
-    margin-bottom: 4px;
-}
-
-fieldset {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    width: 95%;
-}
-
-article {
-    background-color: rgba(240, 248, 255, 0.575);
-}
-
-.hijo_article{
-    display: flex;
-    justify-content: center;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    margin-top: 4px;
-    margin-bottom: 4px;
-    background-color: rgba(60, 60, 61, 0.63);
-}
-
-.parrafoTitle{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 600;
-}
-
-.parrafoFont {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
-    text-align: center;
-}
-
-.contenedorH1 {
-    display: flex;
-    justify-content: center;
-    margin-top: 8px;
-    margin-bottom: 8px;
-}
-
-.contenedorH1 h1 {
-    background-color: rgba(128, 128, 128, 0.842);
-    border-radius: 5px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: large;
-}
-
-.divisionEstetica {
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-    margin-bottom: 15px;
-    width: 100%;
-}
-
-.lineEstetica {
-    display: flex;
-    justify-content: center;
-    border: solid black 2px;
-    width: 30%;
-}
-
-.h2General {
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-    border-radius: 10px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-}
-
-.padreH2 {
-    display: flex;
-    justify-content: center;
-}
-
-.h2Stock {
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-    margin-bottom: 5px;
-    border: outset;
-    width: 70%;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    background-color: rgba(0, 255, 255, 0.315);
-}
-
-.borderOut {
-    border: outset;
-    background-color: rgba(0, 255, 255, 0.336);
-}
-
-.borderOut1 {
-    border: outset;
-}
-
-.borderOut2 {
-    border: outset;
-    background-color: rgba(0, 255, 255, 0.568);
-}
-
-.borderOut1:hover {
-    background-color: rgba(0, 255, 255, 0.61);
-}
-
-.borderOut:hover {
-    background-color: rgba(0, 255, 255, 0.61);
-}
-
-.marginLabel {
-    margin: 40px;
-}
-
-.fondo3 {
-    background-image: url(../assets/img/BgNos&Galra.jpg);
-    background-size: cover;
-}
-
-.fondo4 {
-    background-image: url(../assets/img/BgStre&Cntns.jpg);
-    background-size: cover;
-}
-
-.galeriaInicio {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.galeriaInicio img {
-    width: 95%;
-    border: solid 2px black;
-    margin: 5px;
-    opacity: 0.3;
-}
-
-.galeriaInicio img:hover {
-    opacity: 1;
-}
-
-.fondo1 {
-    background-image: url(../assets/img/BgIndex.jpg);
-    background-size: cover;
-}
-
-.fondo2 {
-    background-image: url(../assets/img/BgNos&Galra.jpg);
-    background-size: cover;
-}
-
-.fondo5 {
-    background-image: url(../assets/img/BgForm.png);
-    background-size: cover;
-}
-
-.webStore {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 5px;
-}
-
-.webStoreDiv {
-    display: flex;
-    width: 95%;
-    text-align: center;
-    align-items: center;
-    border: inset;
-    background-color: rgba(0, 255, 255, 0.315);
-    justify-content: space-around;
-    margin-top: 10px;
-}
-
-.webStore div img {
-    width: 30%;
-    border: solid 2px black;
-    margin: 5px;
-}
-
-.pWebstore {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
-    width: 55%;
-}
-
-.webStoreDiv:hover {
-    background-color: rgba(0, 255, 255, 0.514);
-}
-
-.inputWebstore {
-    border: inset;
-    background-color: rgba(0, 255, 255, 0.315);
-
-}
-
-.inputWebstore:hover {
-    background-color: rgba(0, 255, 255, 0.699);
-}
-
-.galeriaGaleria {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 5px;
-}
-
-.galeriaGaleria img{
-    border: solid 2px black;
-    margin: 5px;
-    width: 95%;
-}
-
-.padre_img{
-    text-align: center;
-    margin-top: 8px;
-}
-
-.imgCenter{
-    border: solid 2px black;
-    width: 95%;
-}
-
-/*Carousel Bootstrap*/
-#carouselExampleDark{
-    margin-bottom: 15px;
-}
-
-/*Hasta aca responsive hasta 767px*/
-/*Desde aca responsive desde 768px*/
-
 @media screen and (min-width: 768px) {
 
     #div_nav_responsive{
@@ -317,23 +77,18 @@ article {
         font-size: large;
     }
 
-    article p {
-        font-size: large;
-        font-weight: 600;
-    }
-
     fieldset {
         height: 100%;
     }
 
-    .padreBo {
+    .padre_input {
         height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
     }
 
-    .borderOut {
+    .border_input {
         width: 100%;
     }
 
@@ -511,10 +266,6 @@ article {
 
     .galeriaInicio img{
         width: 49%;
-    }
-
-    .imgCenter{
-        width: 70%;
     }
 
     .webStoreDiv {

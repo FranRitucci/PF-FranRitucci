@@ -40,7 +40,6 @@ header {
   text-align: center;
 }
 .footerCenter .redesSociales a i {
-  margin: 3px;
   font-size: 40px;
 }
 .footerCenter .redesSociales a .iconWsp {
@@ -340,4 +339,42 @@ form fieldset .border_input:hover {
     border-radius: 15px;
     font-size: x-large;
   }
+  .footerCenter {
+    margin-top: 30px;
+  }
+  .footerCenter .redesSociales {
+    justify-content: center;
+  }
+  .footerCenter .redesSociales a {
+    margin: 5px;
+  }
+  .footerCenter .redesSociales a .iconWsp {
+    font-size: 50px;
+  }
+  .footerCenter .redesSociales a .iconFbk {
+    font-size: 50px;
+  }
+  .footerCenter .redesSociales a .iconIns {
+    font-size: 50px;
+  }
+  .footerCenter .redesSociales a .iconIbx {
+    font-size: 50px;
+  }
+  .footerCenter p {
+    font-size: large;
+  }
+  .border_input {
+    width: 100%;
+  }
+  .font_WS {
+    font-size: large;
+  }
+  .btn_WS {
+    font-size: large;
+  }
+}
+/*FLEX*/
+.redesSociales {
+  display: flex;
+  justify-content: space-evenly;
 }/*# sourceMappingURL=main.css.map */

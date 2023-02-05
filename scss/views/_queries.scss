@@ -61,4 +61,48 @@
             font-size: x-large;
         }
     }
+
+    .footerCenter {
+        margin-top: 30px;
+
+        .redesSociales {
+            justify-content: center;
+
+            a {
+                margin: 5px;
+
+                .iconWsp {
+                    font-size: 50px;
+                }
+
+                .iconFbk {
+                    font-size: 50px;
+                }
+
+                .iconIns {
+                    font-size: 50px;
+                }
+
+                .iconIbx {
+                    font-size: 50px;
+                }
+            }
+        }
+
+        p{
+            font-size: large;
+        }
+    }
+
+    .border_input {
+        width: 100%;
+    }
+
+    .font_WS{
+        font-size: large;
+    }
+
+    .btn_WS{
+        font-size: large;
+    }
 }

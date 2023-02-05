@@ -89,7 +89,7 @@
             }
         }
 
-        p{
+        p {
             font-size: large;
         }
     }
@@ -98,11 +98,173 @@
         width: 100%;
     }
 
-    .font_WS{
+    .font_WS {
         font-size: large;
     }
 
-    .btn_WS{
+    .btn_WS {
         font-size: large;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    nav {
+        ul {
+            li {
+                a {
+                    font-size: x-large;
+                }
+            }
+        }
+    }
+
+    .contenedorH1 {
+        h1 {
+            font-size: xx-large;
+        }
+    }
+
+    .back_ground1 {
+        background-size: cover;
+    }
+
+    .galeriaInicio {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        img {
+            width: 49%;
+        }
+    }
+
+    .back_ground4 {
+        background-size: cover;
+    }
+
+    form {
+        font-size: large;
+
+        fieldset {
+            width: 45%;
+        }
+    }
+
+    .padreH2 {
+        .h2Stock {
+            width: 45%;
+        }
+    }
+
+    .webStore {
+        .webStoreDiv {
+            width: 50%;
+        }
+    }
+
+    .galeriaGaleria {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto auto auto auto auto auto;
+        grid-template-areas: "img1  img2"
+            "img3  img4"
+            "img5  img6"
+            "img7  img8"
+            "img9  img10"
+            "img11 img12";
+
+        img {
+            width: 98%;
+        }
+
+        .img_1 {
+            grid-area: img1;
+            &:hover {
+                transform: rotate(10deg);
+            }
+        }
+
+        .img_4{
+            grid-area: img2;
+            &:hover{
+                transform: rotate(10deg);
+            }
+        }
+
+        .img_3{
+            grid-area: img3;
+            &:hover{
+                transform: rotate(10deg);
+            }
+        }
+
+        .img_5{
+            grid-area: img4;
+            &:hover{
+                transform: rotate(10deg);
+            }
+        }
+
+        .img_12{
+            grid-area: img5;
+            &:hover{
+                transform: rotate(10deg);
+            }
+        }
+
+        .img_6{
+            grid-area: img6;
+            &:hover{
+                transform: rotate(10deg);
+            }
+        }
+
+        .img_9{
+            grid-area: img7;
+            &:hover{
+                transform: rotate(10deg);
+            }
+        }
+
+        .img_10{
+            grid-area: img8;
+            &:hover{
+                transform: rotate(10deg);
+            }
+        }
+
+        .img_7{
+            grid-area: img9;
+            &:hover{
+                transform: rotate(10deg);
+            }
+        }
+
+        .img_8{
+            grid-area: img10;
+            &:hover{
+                transform: rotate(10deg);
+            }
+        }
+
+        .img_11{
+            grid-area: img11;
+            &:hover{
+                transform: rotate(10deg);
+            }
+        }
+
+        .img_2{
+            grid-area: img12;
+            &:hover{
+                transform: rotate(10deg);
+            }
+        }
+    }
+
+    .footerCenter {
+        p {
+            font-size: x-large;
+        }
     }
 }

@@ -24,7 +24,7 @@ nav {
         a {
             display: flex;
             text-decoration: none;
-            color: white;
+            color: map-get($paleta_de_colores, txtNavFoo);
             padding: 8px;
             margin-bottom: 2px;
             font-family: 'Rubik Gemstones', cursive;
@@ -49,15 +49,15 @@ nav {
         li {
             a {
                 .iconIns {
-                    color: blueviolet;
+                    color: map-get($paleta_de_colores, instagram);
                 }
 
                 .iconFbk {
-                    color: blue;
+                    color: map-get($paleta_de_colores, facebook);
                 }
 
                 .iconWsp {
-                    color: green;
+                    color: map-get($paleta_de_colores, whatsapp);
                 }
 
                 &:hover {

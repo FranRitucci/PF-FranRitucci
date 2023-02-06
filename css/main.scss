@@ -1,3 +1,6 @@
+/*VARIABLES Y MAP*/
+@import "../scss/utilities/colors";
+
 /*RESET CSS*/
 @import "../scss/normalize/reset";
 
@@ -24,8 +27,10 @@
 /*CONTENIDOS DE LAS PAGINAS*/
 @import "../scss/base/pages-content";
 
-/*QUERIES*/
-@import "../scss/views/queries";
-
 /*FLEX*/
 @import "../scss/layout/flex";
+
+
+/*QUERIES 768PX-1200PX*/
+@import "../scss/views/queries";
+

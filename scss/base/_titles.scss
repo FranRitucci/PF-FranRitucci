@@ -5,7 +5,7 @@
     margin-bottom: 8px;
 
     h1 {
-        background-color: rgba(128, 128, 128, 0.842);
+        background-color: map-get($paleta_de_colores, bgcH1);
         border-radius: 5px;
         font-family: 'Roboto', sans-serif;
         font-weight: 700;
@@ -35,6 +35,6 @@
         width: 70%;
         font-family: 'Roboto', sans-serif;
         font-weight: 700;
-        background-color: rgba(0, 255, 255, 0.315);
+        background-color: map-get($paleta_de_colores, bgcH2WebStore);
     }
 }

@@ -1,11 +1,11 @@
 header {
-    background-image: linear-gradient(#4d5155, rgb(44, 43, 43));
+    background-image: linear-gradient(map-get($paleta_de_colores, bgcH1), map-get($paleta_de_colores, borderImg));
     display: flex;
     width: 100%;
 }
 
 .footerCenter {
-    background-image: linear-gradient(grey, black);
+    background-image: linear-gradient(map-get($paleta_de_colores, bgcH1), map-get($paleta_de_colores, borderImg));
     border-radius: 15px;
     text-align: center;
 
@@ -16,19 +16,19 @@ header {
             }
 
             .iconWsp {
-                color: green;
+                color: map-get($paleta_de_colores, whatsapp);
             }
 
             .iconFbk {
-                color: blue;
+                color: map-get($paleta_de_colores, facebook);
             }
 
             .iconIns {
-                color: blueviolet;
+                color: map-get($paleta_de_colores, instagram);
             }
 
             .iconIbx {
-                color: rgb(168, 158, 20);
+                color: map-get($paleta_de_colores, inbox)
             }
         }
     }
@@ -36,6 +36,6 @@ header {
     p {
         padding-top: 15px;
         font-family: 'Roboto', sans-serif;
-        color: white;
+        color: map-get($paleta_de_colores, txtNavFoo);
     }
 }

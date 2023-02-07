@@ -128,10 +128,6 @@
         background-size: cover;
     }
 
-    .back_ground3 {
-        background-size: cover;
-    }
-
     .galeriaInicio {
         flex-direction: row;
         flex-wrap: wrap;
@@ -142,14 +138,10 @@
         }
     }
 
-    .back_ground4 {
-        background-size: cover;
-    }
-
     form {
         font-size: large;
 
-        fieldset {
+        .back_ground_form {
             width: 45%;
         }
     }

@@ -15,12 +15,12 @@
 }
 
 .back_ground3 {
-  background-image: url(../assets/img/BgNos&Galra.jpg);
+  background-image: url(../assets/img/BgGaleria.jpg);
   background-size: cover;
 }
 
 .back_ground4 {
-  background-image: url(../assets/img/BgStre&Cntns.jpg);
+  background-image: url(../assets/img/Bg4.jpg);
   background-size: cover;
 }
 
@@ -391,9 +391,6 @@ form .back_ground_form .border_input:hover {
   .back_ground1 {
     background-size: cover;
   }
-  .back_ground3 {
-    background-size: cover;
-  }
   .galeriaInicio {
     flex-direction: row;
     flex-wrap: wrap;
@@ -402,13 +399,10 @@ form .back_ground_form .border_input:hover {
   .galeriaInicio img {
     width: 48%;
   }
-  .back_ground4 {
-    background-size: cover;
-  }
   form {
     font-size: large;
   }
-  form fieldset {
+  form .back_ground_form {
     width: 45%;
   }
   .padreH2 .h2Stock {

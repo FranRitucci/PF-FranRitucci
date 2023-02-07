@@ -1,6 +1,5 @@
 .contenedorH1 {
-    display: flex;
-    justify-content: center;
+    @include flex-row-center;
     margin-top: 8px;
     margin-bottom: 8px;
 
@@ -14,8 +13,7 @@
 }
 
 .h2General {
-    display: flex;
-    justify-content: center;
+    @include flex-row-center;
     margin-top: 30px;
     border-radius: 10px;
     font-family: 'Roboto', sans-serif;
@@ -23,12 +21,10 @@
 }
 
 .padreH2 {
-    display: flex;
-    justify-content: center;
+    @include flex-row-center;
 
     .h2Stock {
-        display: flex;
-        justify-content: center;
+        @include flex-row-center;
         margin-top: 30px;
         margin-bottom: 5px;
         border: outset;

@@ -1,4 +1,5 @@
 /*VARIABLES Y MAP*/
+/*MIXIN*/
 /*RESET CSS*/
 * {
   margin: 0;
@@ -258,34 +259,34 @@ form {
   margin-top: 5px;
   margin-bottom: 4px;
 }
-form fieldset {
+form .back_ground_form {
   display: flex;
   flex-direction: column;
   text-align: center;
   width: 95%;
 }
-form fieldset .borderOut2 {
+form .back_ground_form .borderOut2 {
   border: outset;
   background-color: rgba(0, 255, 255, 0.568);
 }
-form fieldset .marginLabel {
+form .back_ground_form .marginLabel {
   margin: 40px;
 }
-form fieldset .marginLabel .borderOut {
+form .back_ground_form .marginLabel .borderOut {
   border: outset;
   background-color: rgba(0, 255, 255, 0.568);
 }
-form fieldset .marginLabel .borderOut:hover {
+form .back_ground_form .marginLabel .borderOut:hover {
   background-color: rgb(0, 255, 255);
 }
-form fieldset .marginLabel .borderOut1 {
+form .back_ground_form .marginLabel .borderOut1 {
   border: outset;
 }
-form fieldset .border_input {
+form .back_ground_form .border_input {
   border: outset;
   background-color: rgba(0, 255, 255, 0.568);
 }
-form fieldset .border_input:hover {
+form .back_ground_form .border_input:hover {
   background-color: rgb(0, 255, 255);
 }
 
@@ -399,7 +400,7 @@ form fieldset .border_input:hover {
     justify-content: center;
   }
   .galeriaInicio img {
-    width: 49%;
+    width: 48%;
   }
   .back_ground4 {
     background-size: cover;

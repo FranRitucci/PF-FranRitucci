@@ -1,7 +1,5 @@
 .galeriaInicio {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include flex-column-center;
 
     img {
         width: 95%;
@@ -27,9 +25,7 @@
 }
 
 .galeriaGaleria {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include flex-column-center;
     padding-top: 5px;
 
     img {
@@ -40,9 +36,7 @@
 }
 
 .webStore {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include flex-column-center;
     margin-bottom: 5px;
 
     .webStoreDiv {
@@ -83,12 +77,11 @@
 }
 
 form {
-    display: flex;
-    justify-content: center;
+    @include flex-row-center;
     margin-top: 5px;
     margin-bottom: 4px;
 
-    fieldset {
+    .back_ground_form {
         display: flex;
         flex-direction: column;
         text-align: center;

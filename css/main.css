@@ -10,22 +10,22 @@
 /*320PX*/
 /*BACKGROUND BODYs-FORMs*/
 .back_ground1 {
-  background-image: url(../assets/img/BgIndex.jpg);
+  background-image: url(../assets/img/bg-index.jpg);
   background-size: cover;
 }
 
 .back_ground3 {
-  background-image: url(../assets/img/BgGaleria.jpg);
-  background-size: cover;
+  background-image: url(../assets/img/bg-galeria.jpg);
+  background-size: auto;
 }
 
 .back_ground4 {
-  background-image: url(../assets/img/Bg4.jpg);
+  background-image: url(../assets/img/bg4.jpg);
   background-size: cover;
 }
 
 .back_ground_form {
-  background-image: url(../assets/img/BgForm.png);
+  background-image: url(../assets/img/bg-form.png);
   background-size: cover;
 }
 
@@ -126,43 +126,33 @@ nav ul a:hover {
 }
 
 /*H1-H2*/
-.contenedorH1 {
-  display: flex;
-  justify-content: center;
+.H1 {
+  text-align: center;
+  background-color: rgba(128, 128, 128, 0.842);
   margin-top: 8px;
   margin-bottom: 8px;
-}
-.contenedorH1 h1 {
-  background-color: rgba(128, 128, 128, 0.842);
   border-radius: 5px;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: large;
 }
 
+.h2Stock {
+  text-align: center;
+  width: 70%;
+  margin-bottom: 5px;
+  border: outset;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  background-color: rgba(0, 255, 255, 0.315);
+}
+
 .h2General {
-  display: flex;
-  justify-content: center;
+  text-align: center;
   margin-top: 30px;
   border-radius: 10px;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
-}
-
-.padreH2 {
-  display: flex;
-  justify-content: center;
-}
-.padreH2 .h2Stock {
-  display: flex;
-  justify-content: center;
-  margin-top: 30px;
-  margin-bottom: 5px;
-  border: outset;
-  width: 70%;
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  background-color: rgba(0, 255, 255, 0.315);
 }
 
 /*CONTENIDOS ESTETICOS*/
@@ -333,17 +323,10 @@ form .back_ground_form .border_input:hover {
   .back_ground1 {
     background-size: auto;
   }
-  .back_ground3 {
-    background-size: auto;
-  }
   .back_ground4 {
     background-size: auto;
   }
-  .contenedorH1 {
-    display: block;
-    text-align: center;
-  }
-  .contenedorH1 h1 {
+  .H1 {
     border-radius: 15px;
     font-size: x-large;
   }
@@ -385,7 +368,7 @@ form .back_ground_form .border_input:hover {
   nav ul li a {
     font-size: x-large;
   }
-  .contenedorH1 h1 {
+  .H1 {
     font-size: xx-large;
   }
   .back_ground1 {
@@ -405,7 +388,7 @@ form .back_ground_form .border_input:hover {
   form .back_ground_form {
     width: 45%;
   }
-  .padreH2 .h2Stock {
+  .h2Stock {
     width: 45%;
   }
   .webStore .webStoreDiv {

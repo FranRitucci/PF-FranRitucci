@@ -13,7 +13,7 @@
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!--LINK IconoPestaña-->
-    <link rel="shorcut icon" href="../assets/img/IconoPestaña.png" type="image/x-icon" alt="iconPestaña">
+    <link rel="shorcut icon" href="../assets/img/icono-pestaña.png" type="image/x-icon" alt="iconPestaña">
     <!--GOOGLE Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,11 +31,11 @@
 
 <body>
     <header>
-        <!--Navbar bootstrap-->
+        <!--Nav bar bootstrap-->
         <nav class="navbar navbar-expand-lg bg-dark bg-gradient pt-0 pb-0">
             <div class="container-fluid p-0" id="div_nav_responsive">
                 <a class="navbar-brand contenedorHeader p-0 me-0" href="../index.html"> <img
-                        src="../assets/img/IconoNav.png" class="logoHeader" alt="Icono_nav"></a>
+                        src="../assets/img/icono-nav.png" class="logoHeader" alt="Icono_nav"></a>
                 <button class="navbar-toggler bg-light my-1" id="btn_nav_responsive" type="button"
                     data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -83,15 +83,13 @@
             </div>
         </nav>
     </header>
-
+    <!--Main content-->
     <main>
-        <div class="contenedorH1 animate__animated animate__backInLeft">
-            <h1>Mundo canino - Acerca de nosotros</h1>
-        </div>
+        <h1 class="H1 animate__animated animate__backInLeft">Mundo canino - Acerca de nosotros</h1>
         <!--El siguiente div esta definido sin contenido para generar una linea divisora estetica-->
-        <div class="divisionEstetica animate__animated animate__backInDown">
+        <section class="divisionEstetica animate__animated animate__backInDown">
             <div class="lineEstetica"></div>
-        </div>
+        </section>
         <article>
             <!--Acoordion bootstrap-->
             <div class="accordion" id="accordionExample">
@@ -176,9 +174,9 @@
         </article>
         <section>
             <!--El siguiente div esta definido sin contenido para generar una linea divisora estetica-->
-            <div class="divisionEstetica animate__animated animate__backInDown">
+            <section class="divisionEstetica animate__animated animate__backInDown">
                 <div class="lineEstetica"></div>
-            </div>
+            </section>
             <!--Carousel bootstrap-->
             <div id="carouselExampleDark" class="carousel carousel-dark slide container-lg">
                 <div class="carousel-indicators">
@@ -191,14 +189,14 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="10000">
-                        <img src="../assets/img/Carousel1.jpg" class="d-block w-100" alt="ImagenCarousel1">
+                        <img src="../assets/img/carousel1.jpg" class="d-block w-100" alt="ImagenCarousel1">
                         <div class="carousel-caption d-none d-md-block bg-gradient text-black">
                             <h5>Tobey y Jack</h5>
                             <p>Dos hermanitos mestizos de 4 años.</p>
                         </div>
                     </div>
                     <div class="carousel-item" data-bs-interval="2000">
-                        <img src="../assets/img/Carousel2.jpg" class="d-block w-100" alt="ImagenCarousel2">
+                        <img src="../assets/img/carousel2.jpg" class="d-block w-100" alt="ImagenCarousel2">
                         <div class="carousel-caption d-none d-md-block bg-gradient text-black">
                             <h5>Jina</h5>
                             <p>Esta fotografia no ha logrado captar la increible vitalidad de esta veterana de 5 años.
@@ -206,13 +204,14 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="../assets/img/Carousel3.jpg" class="d-block w-100" alt="ImagenCarousel3">
+                        <img src="../assets/img/carousel3.jpg" class="d-block w-100" alt="ImagenCarousel3">
                         <div class="carousel-caption d-none d-md-block bg-gradient text-black">
                             <h5>Pato</h5>
                             <p>Uno de nuestros tanto cachorros en Mundo Canino.</p>
                         </div>
                     </div>
                 </div>
+                <!--Carousel btns Prev-Next-->
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
                     data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -226,7 +225,7 @@
             </div>
         </section>
     </main>
-    
+    <!--Footer-->
     <footer class="bg-dark bg-gradient textCenter text-light footerCenter">
         <div class="redesSociales">
             <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer"><i

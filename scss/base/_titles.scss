@@ -1,36 +1,28 @@
-.contenedorH1 {
-    @include flex-row-center;
+.H1 {
+    text-align: center;
+    background-color: map-get($paleta_de_colores, bgcH1);
     margin-top: 8px;
     margin-bottom: 8px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: large;
+}
 
-    h1 {
-        background-color: map-get($paleta_de_colores, bgcH1);
-        border-radius: 5px;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 700;
-        font-size: large;
-    }
+.h2Stock {
+    text-align: center;
+    width: 70%;
+    margin-bottom: 5px;
+    border: outset;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    background-color: map-get($paleta_de_colores, bgcH2WebStore);
 }
 
 .h2General {
-    @include flex-row-center;
+    text-align: center;
     margin-top: 30px;
     border-radius: 10px;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-}
-
-.padreH2 {
-    @include flex-row-center;
-
-    .h2Stock {
-        @include flex-row-center;
-        margin-top: 30px;
-        margin-bottom: 5px;
-        border: outset;
-        width: 70%;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 700;
-        background-color: map-get($paleta_de_colores, bgcH2WebStore);
-    }
 }

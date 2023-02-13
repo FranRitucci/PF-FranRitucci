@@ -1,6 +1,7 @@
 .H1 {
     text-align: center;
     background-color: map-get($paleta_de_colores, bgcH1);
+    color: map-get($paleta_de_colores , borderImg );
     margin-top: 8px;
     margin-bottom: 8px;
     border-radius: 5px;
@@ -13,10 +14,12 @@
     text-align: center;
     width: 70%;
     margin-bottom: 5px;
-    border: outset;
+    border: solid;
+    border-color: map-get($paleta_de_colores , borderImg );
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     background-color: map-get($paleta_de_colores, bgcH2WebStore);
+    color: map-get($paleta_de_colores , borderImg );
 }
 
 .h2General {
@@ -25,4 +28,5 @@
     border-radius: 10px;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
+    color: map-get($paleta_de_colores , borderImg );
 }

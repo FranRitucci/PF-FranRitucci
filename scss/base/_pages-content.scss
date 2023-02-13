@@ -38,42 +38,6 @@
 .webStore {
     @include flex-column-center;
     margin-bottom: 5px;
-
-    .webStoreDiv {
-        display: flex;
-        width: 95%;
-        text-align: center;
-        align-items: center;
-        border: inset;
-        background-color: map-get($paleta_de_colores, bgcH2WebStore);
-        justify-content: space-around;
-        margin-top: 10px;
-
-        &:hover {
-            background-color: map-get($paleta_de_colores, hoverWS);
-        }
-
-        img {
-            width: 30%;
-            border: solid 2px map-get($paleta_de_colores, borderImg);
-            margin: 5px;
-        }
-
-        .font_WS {
-            font-family: 'Roboto', sans-serif;
-            font-weight: 100;
-            width: 55%;
-        }
-
-        .btn_WS {
-            border: inset;
-            background-color: map-get($paleta_de_colores, bgcH2WebStore);
-
-            &:hover {
-                background-color: map-get($paleta_de_colores, hoverBtnWS);
-            }
-        }
-    }
 }
 
 form {

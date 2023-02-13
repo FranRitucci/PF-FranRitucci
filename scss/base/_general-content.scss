@@ -9,26 +9,26 @@ header {
     border-radius: 15px;
     text-align: center;
 
-    .redesSociales {
-        a {
-            i {
-                font-size: 40px;
+    .redesSociales{
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 5px;
+
+        a{
+            .iconWsp{
+                width: 32px;
             }
 
-            .iconWsp {
-                color: map-get($paleta_de_colores, whatsapp);
+            .iconFbk{
+                width: 32px;
             }
 
-            .iconFbk {
-                color: map-get($paleta_de_colores, facebook);
+            .iconIns{
+                width: 32px;
             }
 
-            .iconIns {
-                color: map-get($paleta_de_colores, instagram);
-            }
-
-            .iconIbx {
-                color: map-get($paleta_de_colores, inbox)
+            .iconIbx{
+                width: 32px;
             }
         }
     }

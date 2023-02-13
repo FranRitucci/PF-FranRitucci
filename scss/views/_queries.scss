@@ -59,26 +59,28 @@
         .redesSociales {
             justify-content: center;
 
-            a {
+            a{
                 margin: 5px;
 
-                .iconWsp {
-                    font-size: 50px;
+                .iconWsp{
+                    width: 64px;
                 }
-
-                .iconFbk {
-                    font-size: 50px;
+    
+                .iconFbk{
+                    width: 64px;
                 }
-
-                .iconIns {
-                    font-size: 50px;
+    
+                .iconIns{
+                    width: 64px;
                 }
-
-                .iconIbx {
-                    font-size: 50px;
+    
+                .iconIbx{
+                    width: 64px;
                 }
             }
         }
+
+        
 
         p {
             font-size: large;

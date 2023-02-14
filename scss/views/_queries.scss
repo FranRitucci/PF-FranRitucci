@@ -59,28 +59,28 @@
         .redesSociales {
             justify-content: center;
 
-            a{
+            a {
                 margin: 5px;
 
-                .iconWsp{
+                .iconWsp {
                     width: 64px;
                 }
-    
-                .iconFbk{
+
+                .iconFbk {
                     width: 64px;
                 }
-    
-                .iconIns{
+
+                .iconIns {
                     width: 64px;
                 }
-    
-                .iconIbx{
+
+                .iconIbx {
                     width: 64px;
                 }
             }
         }
 
-        
+
 
         p {
             font-size: large;
@@ -164,98 +164,50 @@
 
         .img_1 {
             grid-area: img1;
-
-            &:hover {
-                transform: rotate(10deg);
-            }
         }
 
         .img_4 {
             grid-area: img2;
-
-            &:hover {
-                transform: rotate(10deg);
-            }
         }
 
         .img_3 {
             grid-area: img3;
-
-            &:hover {
-                transform: rotate(10deg);
-            }
         }
 
         .img_5 {
             grid-area: img4;
-
-            &:hover {
-                transform: rotate(10deg);
-            }
         }
 
         .img_12 {
             grid-area: img5;
-
-            &:hover {
-                transform: rotate(10deg);
-            }
         }
 
         .img_6 {
             grid-area: img6;
-
-            &:hover {
-                transform: rotate(10deg);
-            }
         }
 
         .img_9 {
             grid-area: img7;
-
-            &:hover {
-                transform: rotate(10deg);
-            }
         }
 
         .img_10 {
             grid-area: img8;
-
-            &:hover {
-                transform: rotate(10deg);
-            }
         }
 
         .img_7 {
             grid-area: img9;
-
-            &:hover {
-                transform: rotate(10deg);
-            }
         }
 
         .img_8 {
             grid-area: img10;
-
-            &:hover {
-                transform: rotate(10deg);
-            }
         }
 
         .img_11 {
             grid-area: img11;
-
-            &:hover {
-                transform: rotate(10deg);
-            }
         }
 
         .img_2 {
             grid-area: img12;
-
-            &:hover {
-                transform: rotate(10deg);
-            }
         }
     }
 

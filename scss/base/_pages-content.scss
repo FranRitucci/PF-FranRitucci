@@ -38,7 +38,6 @@
 .webStore {
     @include flex-column-center;
     margin-bottom: 5px;
-    
 }
 
 form {
@@ -60,26 +59,8 @@ form {
         .marginLabel {
             margin: 40px;
 
-            .borderOut {
-                border: outset;
-                background-color: map-get($paleta_de_colores, bgcForm);
-
-                &:hover {
-                    background-color: map-get($paleta_de_colores, hoverForm);
-                }
-            }
-
             .borderOut1 {
                 border: outset;
-            }
-        }
-
-        .border_input {
-            border: outset;
-            background-color: map-get($paleta_de_colores, bgcForm);
-
-            &:hover {
-                background-color: map-get($paleta_de_colores, hoverForm);
             }
         }
     }

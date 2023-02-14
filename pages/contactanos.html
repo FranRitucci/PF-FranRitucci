@@ -85,34 +85,26 @@
         </section>
         <!--Formulario de contacto-->
         <form>
-            <fieldset class="back_ground_form">
-                <legend class="borderOut2">Completa tus datos y te contactamos</legend>
+            <fieldset class="back_ground_form rounded">
+                <legend class="borderOut2 rounded">Completa tus datos y te contactamos</legend>
                 <div class="marginLabel">
-                    <label class="borderOut" for="nombre_apellido">Nombre:</label>
-                    <input class="borderOut1" type="text" name="nombre_apellido" />
+                    <input class="borderOut1 rounded" type="text" name="nombre_apellido" placeholder="Nombre y apellido"/>
                 </div>
                 <div class="marginLabel">
-                    <label class="borderOut" for="contacto">Celular:</label>
-                    <input class="borderOut1" type="text" name="contacto" />
+                    <input class="borderOut1 rounded" type="text" name="contacto" placeholder="Celular"/>
                 </div>
                 <div class="marginLabel">
-                    <label class="borderOut" for="correo">E-Mail</label>
-                    <input class="borderOut1" type="text" name="correo" />
+                    <input class="borderOut1 rounded" type="text" name="correo" placeholder="E-mail"/>
                 </div>
                 <div class="marginLabel">
-                    <label class="borderOut" for="localidad">Barrio:</label>
-                    <input class="borderOut1" type="text" name="localidad" />
+                    <input class="borderOut1 rounded" type="text" name="localidad" placeholder="Localidad/Barrio"/>
                 </div>
-                <div class="marginLabel">
-                    <label class="borderOut" for="perros">Cantidad de perros:</label>
-                    <input class="borderOut1" type="text" name="perros" />
-                </div>
-                <div class="padre_input">
-                    <div>
-                        <input class="border_input" type="submit" value="Enviar" />
+                <div>
+                    <div class="d-grid gap-2 col-6 mx-auto">
+                        <input class="btn btn-primary btn btn-outline-light btn-sm" type="submit" value="Enviar">
                     </div>
-                    <div>
-                        <input class="border_input" type="reset" value="Limpiar el formulario" />
+                    <div class="d-grid gap-2 col-6 mx-auto">
+                        <input class="btn btn-primary btn btn-outline-light btn-sm" type="reset" value="Limpiar el formulario">
                     </div>
                 </div>
             </fieldset>

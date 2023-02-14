@@ -53,7 +53,10 @@ form {
 
         .borderOut2 {
             border: outset;
-            background-color: map-get($paleta_de_colores, bgcForm);
+            background-color: #0D6EFD ;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 600;
+            font-size: medium;
         }
 
         .marginLabel {

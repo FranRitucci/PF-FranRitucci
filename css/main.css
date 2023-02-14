@@ -19,11 +19,6 @@
   background-size: auto;
 }
 
-.back_ground4 {
-  background-image: url(../assets/img/bg-galeria.jpg);
-  background-size: cover;
-}
-
 .back_ground_form {
   background-image: url(../assets/img/bg-form.png);
   background-size: cover;
@@ -127,6 +122,16 @@ nav ul a:hover {
   margin-bottom: 15px;
 }
 
+/*CARDS*/
+.card-body .card-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+.card-body .card-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+}
+
 /*H1-H2*/
 .H1 {
   text-align: center;
@@ -141,11 +146,12 @@ nav ul a:hover {
 }
 
 .h2Stock {
-  width: 65%;
+  width: 75%;
   margin-bottom: 5px;
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
+  font-size: x-large;
 }
 
 .h2General {
@@ -155,6 +161,21 @@ nav ul a:hover {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   color: black;
+}
+
+.accordion-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+.Carousel-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+.Carousel-parrafo {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
 }
 
 /*CONTENIDOS ESTETICOS*/
@@ -229,7 +250,10 @@ form .back_ground_form {
 }
 form .back_ground_form .borderOut2 {
   border: outset;
-  background-color: rgba(0, 255, 255, 0.568);
+  background-color: #0D6EFD;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: medium;
 }
 form .back_ground_form .marginLabel {
   margin: 40px;
@@ -281,12 +305,12 @@ form .back_ground_form .marginLabel .borderOut1 {
   .back_ground1 {
     background-size: auto;
   }
-  .back_ground4 {
-    background-size: auto;
-  }
   .H1 {
     border-radius: 15px;
     font-size: x-large;
+  }
+  form .back_ground_form .borderOut2 {
+    font-size: large;
   }
   .footerCenter {
     margin-top: 30px;
@@ -311,9 +335,6 @@ form .back_ground_form .marginLabel .borderOut1 {
   }
   .footerCenter p {
     font-size: large;
-  }
-  .border_input {
-    width: 100%;
   }
   .font_WS {
     font-size: large;
@@ -340,14 +361,11 @@ form .back_ground_form .marginLabel .borderOut1 {
   .galeriaInicio img {
     width: 48%;
   }
-  form {
-    font-size: large;
-  }
   form .back_ground_form {
     width: 45%;
   }
   .h2Stock {
-    width: 45%;
+    width: 42%;
   }
   .webStore .webStoreDiv {
     width: 50%;

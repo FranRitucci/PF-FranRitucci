@@ -44,13 +44,17 @@
         background-size: auto;
     }
 
-    .back_ground4 {
-        background-size: auto;
-    }
-
     .H1 {
         border-radius: 15px;
         font-size: x-large;
+    }
+
+    form {
+        .back_ground_form {
+            .borderOut2 {
+                font-size: large;
+            }
+        }
     }
 
     .footerCenter {
@@ -85,10 +89,6 @@
         p {
             font-size: large;
         }
-    }
-
-    .border_input {
-        width: 100%;
     }
 
     .font_WS {
@@ -130,15 +130,13 @@
     }
 
     form {
-        font-size: large;
-
         .back_ground_form {
             width: 45%;
         }
     }
 
     .h2Stock {
-        width: 45%;
+        width: 42%;
     }
 
     .webStore {

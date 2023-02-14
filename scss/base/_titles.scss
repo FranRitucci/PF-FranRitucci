@@ -11,15 +11,11 @@
 }
 
 .h2Stock {
-    text-align: center;
-    width: 70%;
+    width: 65%;
     margin-bottom: 5px;
-    border: solid;
-    border-color: map-get($paleta_de_colores , borderImg );
+    text-align: center;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    background-color: map-get($paleta_de_colores, bgcH2WebStore);
-    color: map-get($paleta_de_colores , borderImg );
 }
 
 .h2General {

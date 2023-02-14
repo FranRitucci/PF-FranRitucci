@@ -141,15 +141,11 @@ nav ul a:hover {
 }
 
 .h2Stock {
-  text-align: center;
-  width: 70%;
+  width: 65%;
   margin-bottom: 5px;
-  border: solid;
-  border-color: black;
+  text-align: center;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
-  background-color: rgba(0, 255, 255, 0.315);
-  color: black;
 }
 
 .h2General {

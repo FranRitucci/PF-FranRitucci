@@ -26,20 +26,20 @@
 
 /*HEADER-FOOTER*/
 header {
-  background-image: linear-gradient(rgba(128, 128, 128, 0.842), black);
-  display: flex;
   width: 100%;
 }
 
 .footerCenter {
-  background-image: linear-gradient(rgba(128, 128, 128, 0.842), black);
-  border-radius: 15px;
-  text-align: center;
+  display: grid;
+  grid-template-columns: 20% 40% 40%;
+  grid-template-rows: auto auto auto;
+  grid-template-areas: "redes dias-horarios servicios" "br br br" "parrafo parrafo parrafo";
 }
 .footerCenter .redesSociales {
+  grid-area: redes;
   display: flex;
-  justify-content: space-evenly;
-  padding-top: 5px;
+  flex-direction: column;
+  align-items: center;
 }
 .footerCenter .redesSociales a .iconWsp {
   width: 32px;
@@ -53,8 +53,48 @@ header {
 .footerCenter .redesSociales a .iconIbx {
   width: 32px;
 }
-.footerCenter p {
-  padding-top: 15px;
+.footerCenter .dias_horarios {
+  grid-area: dias-horarios;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+.footerCenter .dias_horarios .h5_dias_horarios {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  color: black;
+}
+.footerCenter .dias_horarios .p_dias_horarios {
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+.footerCenter .dias_horarios .p_dias_horarios .span_dias_horarios {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+.footerCenter .servicios {
+  grid-area: servicios;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+.footerCenter .servicios .h5_servicios {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  color: black;
+}
+.footerCenter .servicios .p_servicios a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+.footerCenter .derechos_footer {
+  grid-area: parrafo;
+  text-align: center;
+  margin-top: 15px;
+  padding-top: 5px;
   font-family: "Roboto", sans-serif;
   color: white;
 }
@@ -102,18 +142,6 @@ nav ul a:hover {
 .navbar #div_nav_responsive {
   display: flex;
   justify-content: center;
-}
-.navbar #div_nav_responsive li a .iconIns {
-  color: blueviolet;
-}
-.navbar #div_nav_responsive li a .iconFbk {
-  color: blue;
-}
-.navbar #div_nav_responsive li a .iconWsp {
-  color: green;
-}
-.navbar #div_nav_responsive li a:hover {
-  transform: scale(90%);
 }
 
 /*CAROUSEL*/
@@ -261,6 +289,10 @@ form .back_ground_form .marginLabel {
 form .back_ground_form .marginLabel .borderOut1 {
   border: outset;
 }
+form .back_ground_form .btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
 
 /*FLEX*/
 .redesSociales {
@@ -312,6 +344,9 @@ form .back_ground_form .marginLabel .borderOut1 {
   form .back_ground_form .borderOut2 {
     font-size: large;
   }
+  .webStore .h2Stock {
+    width: 29%;
+  }
   .footerCenter {
     margin-top: 30px;
   }
@@ -336,12 +371,6 @@ form .back_ground_form .marginLabel .borderOut1 {
   .footerCenter p {
     font-size: large;
   }
-  .font_WS {
-    font-size: large;
-  }
-  .btn_WS {
-    font-size: large;
-  }
 }
 @media screen and (min-width: 1200px) {
   nav ul li a {
@@ -364,11 +393,8 @@ form .back_ground_form .marginLabel .borderOut1 {
   form .back_ground_form {
     width: 45%;
   }
-  .h2Stock {
-    width: 42%;
-  }
-  .webStore .webStoreDiv {
-    width: 50%;
+  .webStore .h2Stock {
+    width: 19%;
   }
   .galeriaGaleria {
     display: grid;

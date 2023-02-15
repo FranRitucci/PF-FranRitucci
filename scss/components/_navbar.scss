@@ -39,25 +39,5 @@ nav {
 
     #div_nav_responsive {
         @include flex-row-center;
-
-        li {
-            a {
-                .iconIns {
-                    color: map-get($paleta_de_colores, instagram);
-                }
-
-                .iconFbk {
-                    color: map-get($paleta_de_colores, facebook);
-                }
-
-                .iconWsp {
-                    color: map-get($paleta_de_colores, whatsapp);
-                }
-
-                &:hover {
-                    transform: scale(90%);
-                }
-            }
-        }
     }
 }

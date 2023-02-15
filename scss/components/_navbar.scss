@@ -1,3 +1,4 @@
+/*Navbar Bootstrap de todas las pages*/
 nav {
     @include flex-column-center;
     width: 100%;
@@ -32,7 +33,6 @@ nav {
     }
 }
 
-/*Navbar Bootstrap*/
 .navbar {
     font-family: 'Rubik Gemstones', cursive;
     font-size: medium;

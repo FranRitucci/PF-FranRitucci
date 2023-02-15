@@ -1,3 +1,4 @@
+/*3 imgs del index*/
 .galeriaInicio {
     @include flex-column-center;
 
@@ -13,6 +14,7 @@
     }
 }
 
+/*Clases para estilo de parrafo en la page acerca_de_nosotros*/
 .parrafoFont {
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
@@ -24,6 +26,7 @@
     }
 }
 
+/*Galeria de 12 imagenes de la page galeria*/
 .galeriaGaleria {
     @include flex-column-center;
     padding-top: 5px;
@@ -35,11 +38,15 @@
     }
 }
 
+
+/*Contenedor de la webstore de la page webstore*/
 .webStore {
     @include flex-column-center;
     margin-bottom: 5px;
 }
 
+
+/*Formulario de contacto de la page contactanos*/
 form {
     @include flex-row-center;
     margin-top: 5px;

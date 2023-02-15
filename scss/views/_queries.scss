@@ -1,4 +1,5 @@
 @media screen and (min-width: 768px) {
+/*Esto esta en NAVBAR*/
     nav {
         flex-direction: row;
 
@@ -22,7 +23,6 @@
         }
     }
 
-    /*Navbar Bootstrap*/
     .navbar {
         font-size: large;
 
@@ -35,20 +35,28 @@
         }
     }
 
-    /*Carousel Bootstrap*/
+/*Esto esta en> CAROUSEL*/
     #carouselExampleDark {
         margin-bottom: 0;
     }
-
+/*Esto esta en> BACKGROUND*/
     .back_ground1 {
         background-size: auto;
     }
-
+/*Esto esta en> TITLES*/
     .H1 {
         border-radius: 15px;
         font-size: x-large;
     }
+/*Esto esta en> AESTHETIC-CONTENT*/
+    .go-to-begin{
+        display: block;
+    }
 
+    .go-to-begin2{
+        display: none;
+    }
+/*Esto esta en> PAGES-CONTENT*/
     form {
         .back_ground_form {
             .borderOut2 {
@@ -56,13 +64,13 @@
             }
         }
     }
-
+/*Esto esta en> TITLES*/
     .webStore {
         .h2Stock {
             width: 29%;
         }
     }
-
+/*Esto esta en> GENERAL CONTENT*/
     .footerCenter {
         margin-top: 30px;
 
@@ -105,6 +113,7 @@
 }
 
 @media screen and (min-width: 1200px) {
+/*Esto esta en> NAVBAR*/
     nav {
         ul {
             li {
@@ -114,15 +123,15 @@
             }
         }
     }
-
+/*Esto esta en> TITLES*/
     .H1 {
         font-size: xx-large;
     }
-
+/*Esto esta en> BACKGROUND*/
     .back_ground1 {
         background-size: cover;
     }
-
+/*Esto esta en> PAGES-CONTENT*/
     .galeriaInicio {
         flex-direction: row;
         flex-wrap: wrap;
@@ -132,19 +141,19 @@
             width: 48%;
         }
     }
-
+/*Esto esta en> PAGES-CONTENT*/
     form {
         .back_ground_form {
             width: 45%;
         }
     }
-
+/*Esto esta en> PAGES-CONTENT*/
     .webStore {
         .h2Stock {
             width: 19%;
         }
     }
-
+/*Esto esta en> PAGES-CONTENT*/
     .galeriaGaleria {
         display: grid;
         grid-template-columns: 50% 50%;

@@ -1,3 +1,4 @@
+/*H1 de todas las pages*/
 .H1 {
     text-align: center;
     background-color: map-get($paleta_de_colores, bgcH1);
@@ -10,6 +11,7 @@
     font-size: large;
 }
 
+/*H2 de la page webstore*/
 .h2Stock {
     width: 75%;
     margin-bottom: 5px;
@@ -19,6 +21,7 @@
     font-size: x-large;
 }
 
+/*H2 de la page index*/
 .h2General {
     text-align: center;
     margin-top: 30px;
@@ -28,17 +31,8 @@
     color: map-get($paleta_de_colores , borderImg );
 }
 
+/*estilo de fuente del accordion de la page acerca_de_nosotros*/
 .accordion-button{
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-}
-
-.Carousel-title{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-}
-
-.Carousel-parrafo{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 600;
 }

@@ -1,3 +1,4 @@
+/*Lineas divisoras entre secciones o entre H1s y secciones*/
 .divisionEstetica {
     @include flex-row-center;
     margin-top: 30px;
@@ -10,7 +11,20 @@
     }
 }
 
-.go-to-begin{
+/*Btns con forma de flecha para volver al inicio de la pagina sin scroll*/
+/*este contenedor es visible desde 758px en adelante*/
+.go-to-begin {
+    display: none;
     position: sticky;
     top: 0px;
+}
+
+/*es visible hasta 767px, desde ahi en adelante es visible GO-TO-BEGIN*/
+.go-to-begin2 {
+    text-align: center;
+}
+
+/*este contenedor es visible en todas las mqueris*/
+.go-to-begin3 {
+    text-align: center;
 }

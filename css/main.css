@@ -1,6 +1,7 @@
 /*VARIABLES Y MAP*/
 /*MIXIN*/
 /*RESET CSS*/
+/*Reset basico css*/
 * {
   margin: 0;
   padding: 0;
@@ -29,6 +30,7 @@ header {
   width: 100%;
 }
 
+/*Footer de todas las pages del sitio*/
 .footerCenter {
   display: grid;
   grid-template-columns: 20% 40% 40%;
@@ -40,6 +42,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-evenly;
 }
 .footerCenter .redesSociales a .iconWsp {
   width: 32px;
@@ -100,6 +103,7 @@ header {
 }
 
 /*NAVBAR*/
+/*Navbar Bootstrap de todas las pages*/
 nav {
   display: flex;
   flex-direction: column;
@@ -134,7 +138,6 @@ nav ul a:hover {
   transform: scale(90%);
 }
 
-/*Navbar Bootstrap*/
 .navbar {
   font-family: "Rubik Gemstones", cursive;
   font-size: medium;
@@ -150,7 +153,19 @@ nav ul a:hover {
   margin-bottom: 15px;
 }
 
+/*Estilo de fuente del carousel en al page acerca_de_nosotros*/
+.Carousel-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+.Carousel-parrafo {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+
 /*CARDS*/
+/*Estilo de fuente de las cards de la webstore en la page webstore*/
 .card-body .card-title {
   font-family: "Roboto", sans-serif;
   font-weight: 600;
@@ -161,6 +176,7 @@ nav ul a:hover {
 }
 
 /*H1-H2*/
+/*H1 de todas las pages*/
 .H1 {
   text-align: center;
   background-color: rgba(128, 128, 128, 0.842);
@@ -173,6 +189,7 @@ nav ul a:hover {
   font-size: large;
 }
 
+/*H2 de la page webstore*/
 .h2Stock {
   width: 75%;
   margin-bottom: 5px;
@@ -182,6 +199,7 @@ nav ul a:hover {
   font-size: x-large;
 }
 
+/*H2 de la page index*/
 .h2General {
   text-align: center;
   margin-top: 30px;
@@ -191,22 +209,14 @@ nav ul a:hover {
   color: black;
 }
 
+/*estilo de fuente del accordion de la page acerca_de_nosotros*/
 .accordion-button {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
 }
 
-.Carousel-title {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-}
-
-.Carousel-parrafo {
-  font-family: "Roboto", sans-serif;
-  font-weight: 600;
-}
-
 /*CONTENIDOS ESTETICOS*/
+/*Lineas divisoras entre secciones o entre H1s y secciones*/
 .divisionEstetica {
   display: flex;
   justify-content: center;
@@ -219,12 +229,26 @@ nav ul a:hover {
   width: 30%;
 }
 
+/*Btns con forma de flecha para volver al inicio de la pagina sin scroll*/
+/*este contenedor es visible desde 758px en adelante*/
 .go-to-begin {
+  display: none;
   position: sticky;
   top: 0px;
 }
 
+/*es visible hasta 767px, desde ahi en adelante es visible GO-TO-BEGIN*/
+.go-to-begin2 {
+  text-align: center;
+}
+
+/*este contenedor es visible en todas las mqueris*/
+.go-to-begin3 {
+  text-align: center;
+}
+
 /*CONTENIDOS DE LAS PAGINAS*/
+/*3 imgs del index*/
 .galeriaInicio {
   display: flex;
   flex-direction: column;
@@ -240,6 +264,7 @@ nav ul a:hover {
   opacity: 1;
 }
 
+/*Clases para estilo de parrafo en la page acerca_de_nosotros*/
 .parrafoFont {
   font-family: "Roboto", sans-serif;
   font-weight: 100;
@@ -250,6 +275,7 @@ nav ul a:hover {
   font-weight: 600;
 }
 
+/*Galeria de 12 imagenes de la page galeria*/
 .galeriaGaleria {
   display: flex;
   flex-direction: column;
@@ -262,6 +288,7 @@ nav ul a:hover {
   width: 95%;
 }
 
+/*Contenedor de la webstore de la page webstore*/
 .webStore {
   display: flex;
   flex-direction: column;
@@ -269,6 +296,7 @@ nav ul a:hover {
   margin-bottom: 5px;
 }
 
+/*Formulario de contacto de la page contactanos*/
 form {
   display: flex;
   justify-content: center;
@@ -300,13 +328,9 @@ form .back_ground_form .btn {
 }
 
 /*FLEX*/
-.redesSociales {
-  display: flex;
-  justify-content: space-evenly;
-}
-
 /*QUERIES 768PX-1200PX*/
 @media screen and (min-width: 768px) {
+  /*Esto esta en NAVBAR*/
   nav {
     flex-direction: row;
   }
@@ -325,7 +349,6 @@ form .back_ground_form .btn {
   nav ul a {
     font-size: large;
   }
-  /*Navbar Bootstrap*/
   .navbar {
     font-size: large;
   }
@@ -335,23 +358,35 @@ form .back_ground_form .btn {
   .navbar #div_nav_responsive #btn_nav_responsive {
     margin-right: 10px;
   }
-  /*Carousel Bootstrap*/
+  /*Esto esta en> CAROUSEL*/
   #carouselExampleDark {
     margin-bottom: 0;
   }
+  /*Esto esta en> BACKGROUND*/
   .back_ground1 {
     background-size: auto;
   }
+  /*Esto esta en> TITLES*/
   .H1 {
     border-radius: 15px;
     font-size: x-large;
   }
+  /*Esto esta en> AESTHETIC-CONTENT*/
+  .go-to-begin {
+    display: block;
+  }
+  .go-to-begin2 {
+    display: none;
+  }
+  /*Esto esta en> PAGES-CONTENT*/
   form .back_ground_form .borderOut2 {
     font-size: large;
   }
+  /*Esto esta en> TITLES*/
   .webStore .h2Stock {
     width: 29%;
   }
+  /*Esto esta en> GENERAL CONTENT*/
   .footerCenter {
     margin-top: 30px;
   }
@@ -384,15 +419,19 @@ form .back_ground_form .btn {
   }
 }
 @media screen and (min-width: 1200px) {
+  /*Esto esta en> NAVBAR*/
   nav ul li a {
     font-size: x-large;
   }
+  /*Esto esta en> TITLES*/
   .H1 {
     font-size: xx-large;
   }
+  /*Esto esta en> BACKGROUND*/
   .back_ground1 {
     background-size: cover;
   }
+  /*Esto esta en> PAGES-CONTENT*/
   .galeriaInicio {
     flex-direction: row;
     flex-wrap: wrap;
@@ -401,12 +440,15 @@ form .back_ground_form .btn {
   .galeriaInicio img {
     width: 48%;
   }
+  /*Esto esta en> PAGES-CONTENT*/
   form .back_ground_form {
     width: 45%;
   }
+  /*Esto esta en> PAGES-CONTENT*/
   .webStore .h2Stock {
     width: 19%;
   }
+  /*Esto esta en> PAGES-CONTENT*/
   .galeriaGaleria {
     display: grid;
     grid-template-columns: 50% 50%;

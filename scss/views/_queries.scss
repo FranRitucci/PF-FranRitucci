@@ -90,7 +90,15 @@
             }
         }
 
-        p {
+        .dias_horarios{
+            font-size: large;
+        }
+
+        .servicios {
+            font-size: large;
+        }
+
+        .derechos_footer{
             font-size: large;
         }
     }
@@ -198,12 +206,6 @@
 
         .img_2 {
             grid-area: img12;
-        }
-    }
-
-    .footerCenter {
-        p {
-            font-size: x-large;
         }
     }
 }

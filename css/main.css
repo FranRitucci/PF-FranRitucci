@@ -219,6 +219,11 @@ nav ul a:hover {
   width: 30%;
 }
 
+.go-to-begin {
+  position: sticky;
+  top: 0px;
+}
+
 /*CONTENIDOS DE LAS PAGINAS*/
 .galeriaInicio {
   display: flex;
@@ -368,7 +373,13 @@ form .back_ground_form .btn {
   .footerCenter .redesSociales a .iconIbx {
     width: 64px;
   }
-  .footerCenter p {
+  .footerCenter .dias_horarios {
+    font-size: large;
+  }
+  .footerCenter .servicios {
+    font-size: large;
+  }
+  .footerCenter .derechos_footer {
     font-size: large;
   }
 }
@@ -440,8 +451,5 @@ form .back_ground_form .btn {
   }
   .galeriaGaleria .img_2 {
     grid-area: img12;
-  }
-  .footerCenter p {
-    font-size: x-large;
   }
 }/*# sourceMappingURL=main.css.map */

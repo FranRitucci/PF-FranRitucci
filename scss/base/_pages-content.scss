@@ -4,7 +4,7 @@
 
     img {
         width: 95%;
-        border: solid 2px map-get($paleta_de_colores, borderImg);
+        border: solid 2px map-get($paleta_de_colores, principal);
         margin: 5px;
         opacity: 0.3;
 
@@ -16,13 +16,11 @@
 
 /*Clases para estilo de parrafo en la page acerca_de_nosotros*/
 .parrafoFont {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
-    text-align: center;
+    @include roboto;
+    @include txt-center;
 
     .parrafoTitle {
-        font-family: 'Roboto', sans-serif;
-        font-weight: 600;
+        @include roboto600;
     }
 }
 
@@ -32,7 +30,7 @@
     padding-top: 5px;
 
     img {
-        border: solid 2px map-get($paleta_de_colores, borderImg);
+        border: solid 2px map-get($paleta_de_colores, principal);
         margin: 5px;
         width: 95%;
     }
@@ -55,14 +53,13 @@ form {
     .back_ground_form {
         display: flex;
         flex-direction: column;
-        text-align: center;
+        @include txt-center;
         width: 95%;
 
         .borderOut2 {
             border: outset;
-            background-color: #0D6EFD ;
-            font-family: 'Roboto', sans-serif;
-            font-weight: 600;
+            background-color: map-get($paleta_de_colores, formulario);
+            @include roboto600;
             font-size: medium;
         }
 
@@ -75,8 +72,7 @@ form {
         }
 
         .btn{
-            font-family: 'Roboto', sans-serif;
-            font-weight: 600;
+            @include roboto600;
         }
     }
 }

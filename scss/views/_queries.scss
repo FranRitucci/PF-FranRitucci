@@ -1,5 +1,5 @@
 @media screen and (min-width: 768px) {
-/*Esto esta en NAVBAR*/
+/*Esto esta en COMPONENTS>>NAVBAR*/
     nav {
         flex-direction: row;
 
@@ -35,20 +35,20 @@
         }
     }
 
-/*Esto esta en> CAROUSEL*/
+/*Esto esta en> COMPONENTS>>CAROUSEL*/
     #carouselExampleDark {
         margin-bottom: 0;
     }
-/*Esto esta en> BACKGROUND*/
+/*Esto esta en> BACKGROUNDS>>BACKGROUND*/
     .back_ground1 {
         background-size: auto;
     }
-/*Esto esta en> TITLES*/
+/*Esto esta en> BASE>>TITLES*/
     .H1 {
         border-radius: 15px;
         font-size: x-large;
     }
-/*Esto esta en> AESTHETIC-CONTENT*/
+/*Esto esta en> BASE>>AESTHETIC-CONTENT*/
     .go-to-begin{
         display: block;
     }
@@ -56,7 +56,7 @@
     .go-to-begin2{
         display: none;
     }
-/*Esto esta en> PAGES-CONTENT*/
+/*Esto esta en> BASE>>PAGES-CONTENT*/
     form {
         .back_ground_form {
             .borderOut2 {
@@ -64,13 +64,13 @@
             }
         }
     }
-/*Esto esta en> TITLES*/
+/*Esto esta en> BASE>>TITLES*/
     .webStore {
         .h2Stock {
             width: 29%;
         }
     }
-/*Esto esta en> GENERAL CONTENT*/
+/*Esto esta en> BASE>>GENERAL CONTENT*/
     .footerCenter {
         margin-top: 30px;
 
@@ -113,7 +113,7 @@
 }
 
 @media screen and (min-width: 1200px) {
-/*Esto esta en> NAVBAR*/
+/*Esto esta en> COMPONENTS>>NAVBAR*/
     nav {
         ul {
             li {
@@ -123,15 +123,15 @@
             }
         }
     }
-/*Esto esta en> TITLES*/
+/*Esto esta en> BASE>>TITLES*/
     .H1 {
         font-size: xx-large;
     }
-/*Esto esta en> BACKGROUND*/
+/*Esto esta en> BACKGROUNDS>>BACKGROUND*/
     .back_ground1 {
         background-size: cover;
     }
-/*Esto esta en> PAGES-CONTENT*/
+/*Esto esta en> BASE>>PAGES-CONTENT*/
     .galeriaInicio {
         flex-direction: row;
         flex-wrap: wrap;
@@ -141,19 +141,19 @@
             width: 48%;
         }
     }
-/*Esto esta en> PAGES-CONTENT*/
+/*Esto esta en> BASE>>PAGES-CONTENT*/
     form {
         .back_ground_form {
             width: 45%;
         }
     }
-/*Esto esta en> PAGES-CONTENT*/
+/*Esto esta en> BASE>>PAGES-CONTENT*/
     .webStore {
         .h2Stock {
             width: 19%;
         }
     }
-/*Esto esta en> PAGES-CONTENT*/
+/*Esto esta en> BASE>>PAGES-CONTENT*/
     .galeriaGaleria {
         display: grid;
         grid-template-columns: 50% 50%;

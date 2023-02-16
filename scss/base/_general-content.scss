@@ -2,20 +2,17 @@ header {
     width: 100%;
 }
 
-/*Footer de todas las pages del sitio*/
+/*Footer de todas las pages del sitio ES GRID*/
 .footerCenter {
     display: grid;
     grid-template-columns: 20% 40% 40%;
-    grid-template-rows: auto auto auto;
-    grid-template-areas: "redes dias-horarios servicios"
-        "br br br"
-        "parrafo parrafo parrafo";
+    grid-template-rows: auto auto;
+    grid-template-areas:    "redes dias-horarios servicios"
+                            "parrafo parrafo parrafo";
 
     .redesSociales {
         grid-area: redes;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        @include flex-column-center;
         justify-content: space-evenly;
 
         a {
@@ -39,57 +36,49 @@ header {
 
     .dias_horarios {
         grid-area: dias-horarios;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        justify-content: center;
+        @include flex-column-jccenter;
+        @include txt-center;
 
         .h5_dias_horarios {
-            font-family: 'Roboto', sans-serif;
-            font-weight: 600;
-            color: map-get($paleta_de_colores , borderImg);
+            @include roboto600;
+            color: map-get($paleta_de_colores , principal);
         }
 
         .p_dias_horarios {
-            font-family: 'Roboto', sans-serif;
-            color: map-get($paleta_de_colores, txtNavFoo);
+            @include roboto;
+            color: map-get($paleta_de_colores, secundario);
 
             .span_dias_horarios {
-                font-family: 'Roboto', sans-serif;
-                font-weight: 600;
+                @include roboto600;
             }
         }
     }
 
     .servicios {
         grid-area: servicios;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        justify-content: center;
+        @include flex-column-jccenter;
+        @include txt-center;
 
         .h5_servicios {
-            font-family: 'Roboto', sans-serif;
-            font-weight: 600;
-            color: map-get($paleta_de_colores , borderImg);
+            @include roboto600;
+            color: map-get($paleta_de_colores , principal);
         }
 
         .p_servicios {
-
             a {
                 text-decoration: none;
-                font-family: 'Roboto', sans-serif;
-                color: map-get($paleta_de_colores, txtNavFoo);
+                @include roboto;
+                color: map-get($paleta_de_colores, secundario);
             }
         }
     }
 
     .derechos_footer {
         grid-area: parrafo;
-        text-align: center;
+        @include txt-center;
         margin-top: 15px;
         padding-top: 5px;
-        font-family: 'Roboto', sans-serif;
-        color: map-get($paleta_de_colores, txtNavFoo);
+        @include roboto;
+        color: map-get($paleta_de_colores, secundario);
     }
 }

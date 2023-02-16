@@ -6,7 +6,7 @@
     width: 100%;
 
     .lineEstetica {
-        border: solid 2px map-get($paleta_de_colores, borderImg);
+        border: solid 2px map-get($paleta_de_colores, principal);
         width: 30%;
     }
 }
@@ -21,10 +21,10 @@
 
 /*es visible hasta 767px, desde ahi en adelante es visible GO-TO-BEGIN*/
 .go-to-begin2 {
-    text-align: center;
+    @include txt-center;
 }
 
 /*este contenedor es visible en todas las mqueris*/
 .go-to-begin3 {
-    text-align: center;
+    @include txt-center;
 }

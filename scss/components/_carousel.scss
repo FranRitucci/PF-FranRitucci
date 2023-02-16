@@ -5,11 +5,9 @@
 
 /*Estilo de fuente del carousel en al page acerca_de_nosotros*/
 .Carousel-title{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
+    @include roboto700;
 }
 
 .Carousel-parrafo{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 600;
+    @include roboto600;
 }

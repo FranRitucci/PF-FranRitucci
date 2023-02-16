@@ -1,13 +1,12 @@
 /*H1 de todas las pages*/
 .H1 {
-    text-align: center;
-    background-color: map-get($paleta_de_colores, bgcH1);
-    color: map-get($paleta_de_colores , borderImg );
+    @include txt-center;
+    background-color: map-get($paleta_de_colores, bgc-h1);
+    color: map-get($paleta_de_colores , principal);
     margin-top: 8px;
     margin-bottom: 8px;
     border-radius: 5px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
+    @include roboto700;
     font-size: large;
 }
 
@@ -15,24 +14,21 @@
 .h2Stock {
     width: 75%;
     margin-bottom: 5px;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
+    @include txt-center;
+    @include roboto700;
     font-size: x-large;
 }
 
 /*H2 de la page index*/
 .h2General {
-    text-align: center;
+    @include txt-center;
     margin-top: 30px;
     border-radius: 10px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    color: map-get($paleta_de_colores , borderImg );
+    @include roboto700;
+    color: map-get($paleta_de_colores , principal);
 }
 
 /*estilo de fuente del accordion de la page acerca_de_nosotros*/
 .accordion-button{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
+    @include roboto700;
 }

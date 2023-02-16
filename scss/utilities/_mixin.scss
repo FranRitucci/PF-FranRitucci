@@ -4,7 +4,36 @@
     align-items: center;
 }
 
+@mixin flex-column-jccenter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 @mixin flex-row-center{
     display: flex;
     justify-content: center;
+}
+
+@mixin txt-center{
+    text-align: center;
+}
+
+@mixin rubik-medium{
+    font-family: 'Rubik Gemstones', cursive;
+            font-size: medium;
+}
+
+@mixin roboto{
+    font-family: 'Roboto', sans-serif;
+}
+
+@mixin roboto600{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+@mixin roboto700{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
 }

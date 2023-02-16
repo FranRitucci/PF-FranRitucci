@@ -30,12 +30,12 @@ header {
   width: 100%;
 }
 
-/*Footer de todas las pages del sitio*/
+/*Footer de todas las pages del sitio ES GRID*/
 .footerCenter {
   display: grid;
   grid-template-columns: 20% 40% 40%;
-  grid-template-rows: auto auto auto;
-  grid-template-areas: "redes dias-horarios servicios" "br br br" "parrafo parrafo parrafo";
+  grid-template-rows: auto auto;
+  grid-template-areas: "redes dias-horarios servicios" "parrafo parrafo parrafo";
 }
 .footerCenter .redesSociales {
   grid-area: redes;
@@ -60,8 +60,8 @@ header {
   grid-area: dias-horarios;
   display: flex;
   flex-direction: column;
-  text-align: center;
   justify-content: center;
+  text-align: center;
 }
 .footerCenter .dias_horarios .h5_dias_horarios {
   font-family: "Roboto", sans-serif;
@@ -80,8 +80,8 @@ header {
   grid-area: servicios;
   display: flex;
   flex-direction: column;
-  text-align: center;
   justify-content: center;
+  text-align: center;
 }
 .footerCenter .servicios .h5_servicios {
   font-family: "Roboto", sans-serif;
@@ -172,7 +172,6 @@ nav ul a:hover {
 }
 .card-body .card-text {
   font-family: "Roboto", sans-serif;
-  font-weight: 100;
 }
 
 /*H1-H2*/
@@ -267,7 +266,6 @@ nav ul a:hover {
 /*Clases para estilo de parrafo en la page acerca_de_nosotros*/
 .parrafoFont {
   font-family: "Roboto", sans-serif;
-  font-weight: 100;
   text-align: center;
 }
 .parrafoFont .parrafoTitle {
@@ -327,10 +325,9 @@ form .back_ground_form .btn {
   font-weight: 600;
 }
 
-/*FLEX*/
 /*QUERIES 768PX-1200PX*/
 @media screen and (min-width: 768px) {
-  /*Esto esta en NAVBAR*/
+  /*Esto esta en COMPONENTS>>NAVBAR*/
   nav {
     flex-direction: row;
   }
@@ -358,35 +355,35 @@ form .back_ground_form .btn {
   .navbar #div_nav_responsive #btn_nav_responsive {
     margin-right: 10px;
   }
-  /*Esto esta en> CAROUSEL*/
+  /*Esto esta en> COMPONENTS>>CAROUSEL*/
   #carouselExampleDark {
     margin-bottom: 0;
   }
-  /*Esto esta en> BACKGROUND*/
+  /*Esto esta en> BACKGROUNDS>>BACKGROUND*/
   .back_ground1 {
     background-size: auto;
   }
-  /*Esto esta en> TITLES*/
+  /*Esto esta en> BASE>>TITLES*/
   .H1 {
     border-radius: 15px;
     font-size: x-large;
   }
-  /*Esto esta en> AESTHETIC-CONTENT*/
+  /*Esto esta en> BASE>>AESTHETIC-CONTENT*/
   .go-to-begin {
     display: block;
   }
   .go-to-begin2 {
     display: none;
   }
-  /*Esto esta en> PAGES-CONTENT*/
+  /*Esto esta en> BASE>>PAGES-CONTENT*/
   form .back_ground_form .borderOut2 {
     font-size: large;
   }
-  /*Esto esta en> TITLES*/
+  /*Esto esta en> BASE>>TITLES*/
   .webStore .h2Stock {
     width: 29%;
   }
-  /*Esto esta en> GENERAL CONTENT*/
+  /*Esto esta en> BASE>>GENERAL CONTENT*/
   .footerCenter {
     margin-top: 30px;
   }
@@ -419,19 +416,19 @@ form .back_ground_form .btn {
   }
 }
 @media screen and (min-width: 1200px) {
-  /*Esto esta en> NAVBAR*/
+  /*Esto esta en> COMPONENTS>>NAVBAR*/
   nav ul li a {
     font-size: x-large;
   }
-  /*Esto esta en> TITLES*/
+  /*Esto esta en> BASE>>TITLES*/
   .H1 {
     font-size: xx-large;
   }
-  /*Esto esta en> BACKGROUND*/
+  /*Esto esta en> BACKGROUNDS>>BACKGROUND*/
   .back_ground1 {
     background-size: cover;
   }
-  /*Esto esta en> PAGES-CONTENT*/
+  /*Esto esta en> BASE>>PAGES-CONTENT*/
   .galeriaInicio {
     flex-direction: row;
     flex-wrap: wrap;
@@ -440,15 +437,15 @@ form .back_ground_form .btn {
   .galeriaInicio img {
     width: 48%;
   }
-  /*Esto esta en> PAGES-CONTENT*/
+  /*Esto esta en> BASE>>PAGES-CONTENT*/
   form .back_ground_form {
     width: 45%;
   }
-  /*Esto esta en> PAGES-CONTENT*/
+  /*Esto esta en> BASE>>PAGES-CONTENT*/
   .webStore .h2Stock {
     width: 19%;
   }
-  /*Esto esta en> PAGES-CONTENT*/
+  /*Esto esta en> BASE>>PAGES-CONTENT*/
   .galeriaGaleria {
     display: grid;
     grid-template-columns: 50% 50%;

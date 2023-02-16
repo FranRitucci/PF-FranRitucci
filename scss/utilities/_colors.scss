@@ -1,23 +1,9 @@
-$primera: blueviolet;
-$segunda: blue;
-$tercera: green;
-$cuarta: rgba(128, 128, 128, 0.842);
-$quinta: rgba(0, 255, 255, 0.315);
-$sexta: black;
-$septima: white;
-$octava: rgb(168, 158, 20);
-$novena: rgba(0, 255, 255, 0.514);
-$decima: rgba(0, 255, 255, 0.699);
-$once: rgba(0, 255, 255, 0.568);
-$doce: rgb(0, 255, 255);
-
-
+$primero: black;
+$segundo: white;
+$tercero: #0D6EFD;
+$cuarto: rgba(128, 128, 128, 0.842);
 
 $paleta_de_colores:(
-    instagram: $primera, facebook: $segunda, 
-    whatsapp: $tercera, bgcH1: $cuarta,
-    bgcH2WebStore: $quinta, borderImg: $sexta, 
-    txtNavFoo: $septima, inbox: $octava,
-    hoverWS: $novena, hoverBtnWS: $decima, 
-    bgcForm: $once, hoverForm: $doce, 
+    principal: $primero, secundario: $segundo,
+    formulario: $tercero, bgc-h1: $cuarto,
 )

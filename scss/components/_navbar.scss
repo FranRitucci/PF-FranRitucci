@@ -20,11 +20,10 @@ nav {
         a {
             display: flex;
             text-decoration: none;
-            color: map-get($paleta_de_colores, txtNavFoo);
+            color: map-get($paleta_de_colores, secundario);
             padding: 8px;
             margin-bottom: 2px;
-            font-family: 'Rubik Gemstones', cursive;
-            font-size: medium;
+            @include rubik-medium;
 
             &:hover {
                 transform: scale(90%);
@@ -34,8 +33,7 @@ nav {
 }
 
 .navbar {
-    font-family: 'Rubik Gemstones', cursive;
-    font-size: medium;
+    @include rubik-medium;
 
     #div_nav_responsive {
         @include flex-row-center;
